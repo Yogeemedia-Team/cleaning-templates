@@ -1,0 +1,105 @@
+.faq__shape img {
+    position: absolute;
+    z-index: -1;
+}
+
+.faq__shape img:nth-child(1) {
+    top: 50%;
+    left: -35px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.faq__shape img:nth-child(2) {
+    top: -20px;
+    left: 30px;
+}
+
+.faq__shape img:nth-child(3) {
+    top: -27px;
+    right: -51px;
+}
+
+.faq__wrap {
+    padding-left: 80px;
+}
+
+@media (max-width: 991px) {
+    .faq__wrap {
+        padding-left: 0;
+    }
+}
+
+.accordion_box {
+    position: relative;
+}
+
+.accordion_box .block {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 16px;
+}
+
+.accordion_box .block:last-child {
+    margin-bottom: 0;
+}
+
+.accordion_box .block .acc-btn {
+    color: var(--color-black);
+    position: relative;
+    font-weight: 500;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 15px 30px;
+    padding-bottom: 18px;
+    border: 1px solid #E8E8E8;
+    border-radius: 27px;
+    -webkit-border-radius: 27px;
+    -moz-border-radius: 27px;
+    -ms-border-radius: 27px;
+    -o-border-radius: 27px;
+}
+
+.accordion_box .block.active-block .acc-btn {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    border-color: var(--color-primary);
+}
+
+.accordion_box .block .acc-btn::before {
+    top: 21px;
+    right: 25px;
+    line-height: 1;
+    font-size: 14px;
+    content: "\f067";
+    position: absolute;
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 300;
+    transition: 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -webkit-transition: 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -o-transition: 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -moz-transition: 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -ms-transition: 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.accordion_box .block.active-block .acc-btn::before {
+    content: "\f068";
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+.accordion_box .block .acc_body {
+    position: relative;
+    display: none;
+    font-size: 16px;
+    line-height: 28px;
+    color: #535353;
+    padding: 25px 20px 0;
+}
+
+.accordion_box .block .acc_body.current {
+    display: block;
+}

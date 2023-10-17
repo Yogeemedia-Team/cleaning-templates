@@ -1,0 +1,20 @@
+<!-- For Js Library -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
+<script src="assets/js/appear.js"></script>
+<script src="assets/js/slick.js"></script>
+<script src="assets/js/jquery.counterup.min.js"></script>
+<script src="assets/js/waypoints.min.js"></script>
+<script src="assets/js/imagesloaded.pkgd.min.js"></script>
+<script src="assets/js/jquery.filterizr.js"></script>
+<script src="assets/js/backToTop.js"></script>
+<script src="assets/js/uikit.min.js"></script>
+<script src="assets/js/metisMenu.min.js"></script>
+<script src="assets/js/twenty.js"></script>
+<script src="assets/js/wow.min.js"></script>
+<script src="assets/js/gmap3.min.js"></script>
+<script src='http://maps.google.com/maps/api/js?key=AIzaSyB6w8j2weabWNNnmQbh4Vsi2-sd7Sqv5zM&#038;ver=5.3.2'></script>
+<script src="assets/js/scripts-2.js"></script>
+<script src="assets/js/script.js"></script>
